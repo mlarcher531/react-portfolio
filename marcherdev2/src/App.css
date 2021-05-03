@@ -72,3 +72,127 @@ header p {
   margin: 10px;
   text-shadow: 0.2rem 0.2rem steelblue;
 }
+
+
+.avatar-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+  height: 40vh;
+  padding-top: 80px;
+}
+
+.avatar-section img{
+  height: 280px;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px 2px rgba(51, 51, 51, 0.2);
+}
+
+.circle {
+  /* background: rgba(112, 128, 144, 0.6); */
+  background: rgb(204, 216, 230);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 2px 1px rgba(51, 51, 51, 0.2);
+}
+
+.circle i{
+  color: #fff;
+}
+
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 80px;
+}
+
+#about{
+  background: rgba(12, 143, 219, 0.507);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100%;
+}
+
+.about-box {
+  background: rgba(178, 215, 236, 0.3);
+  padding: 1rem 2rem;
+  border-radius: 30px;
+}
+
+#about h3 {
+  font-family: 'Open Sans', sans-serif;
+  /* color: rgb(224, 201, 97); */
+  color: rgb(247, 247, 247);
+  padding-bottom: 1.6rem;
+  /* font-size: 1.4rem; */
+}
+
+#about p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8rem;
+  width: 50vw;
+  font-size: 1.3rem;
+}
+
+.about-text{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #fff
+}
+
+span {
+  color: rgb(238, 222, 177);
+  font-weight: bold;
+}
+
+
+.sm-badges-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sm-badges-container a{
+  text-decoration: none;
+}
+.sm-badge {
+  /* background: rgba(112, 128, 144, 0.6); */
+  background: rgba(78, 94, 187, 0.712);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh 5vw;
+  transition: all 0.5s ease;
+  margin-bottom: 1vh;
+  box-shadow: 1px 1px 2px 1px rgba(51, 51, 51, 0.2);
+}
+
+.sm-badge:hover{
+  background: rgba(14, 16, 19, 0.6);
+  box-shadow: 1px 1px 2px 1px rgba(51, 51, 51, 0.2);
+}
+
+.sm-badge i{
+  color: #fff
+}
